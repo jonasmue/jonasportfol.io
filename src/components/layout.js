@@ -8,7 +8,8 @@ export default function Layout({children, home}) {
 	return (
 		<div>
 			<Head>
-				<link rel="icon" href="/favicon.ico"/>
+				<link rel="icon"
+					  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>"/>
 				<meta
 					name="description"
 					content="Learn how to build a personal website using Next.js"
@@ -58,6 +59,24 @@ export default function Layout({children, home}) {
 					</Link>
 				</div>
 			)}
+			<footer className={"flex flex-wrap text-white p-10 bg-black"}>
+				<div className={"w-1/6"}>
+					<a href={"mailto:hej@jonasportfol.io"}>
+						Contact
+					</a>
+				</div>
+				<div className={"text-right w-10/12 lg:w-7/12"}>
+					<a href={"https://github.com/jonasmue/jonasportfol.io"} target={"_blank"}>Source Code</a>
+				</div>
+				<div className={"text-right w-full mt-5 lg:w-3/12 lg:mt-0"}>
+					<span>
+						<a href={"https://compitencies.com/impressum/#privacy"} target={"_blank"}>Privacy Policy</a>
+					</span>
+					<span className={"pl-5"}>
+						<a href={"https://compitencies.com/impressum"} target={"_blank"}>Imprint</a>
+					</span>
+				</div>
+			</footer>
 		</div>
 	)
 }
