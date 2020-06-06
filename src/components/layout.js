@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Footer from "./footer"
+import Header from "./header";
 
-const name = "Hey, I'm Jonas!"
 export const siteTitle = "Jonas Müller | Portfolio"
 
 export default function Layout({children, home}) {
@@ -12,7 +13,7 @@ export default function Layout({children, home}) {
 					  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>"/>
 				<meta
 					name="description"
-					content="Learn how to build a personal website using Next.js"
+					content="Jonas Mueller – Human-Computer Interaction M.Sc. – Portfolio"
 				/>
 				<meta
 					property="og:image"
@@ -23,34 +24,9 @@ export default function Layout({children, home}) {
 				<meta name="og:title" content={siteTitle}/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<title>{siteTitle}</title>
 			</Head>
-			<header>
-				{home ? (
-					<>
-						<img
-							src="/images/profile.jpg"
-							alt={name}
-						/>
-						<h1>{name}</h1>
-					</>
-				) : (
-					<>
-						<Link href="/">
-							<a>
-								<img
-									src="/images/profile.jpg"
-									alt={name}
-								/>
-							</a>
-						</Link>
-						<h2>
-							<Link href="/">
-								<a>{name}</a>
-							</Link>
-						</h2>
-					</>
-				)}
-			</header>
+			<Header/>
 			<main>{children}</main>
 			{!home && (
 				<div>
@@ -59,24 +35,7 @@ export default function Layout({children, home}) {
 					</Link>
 				</div>
 			)}
-			<footer className={"flex flex-wrap text-white p-10 bg-black"}>
-				<div className={"w-1/6"}>
-					<a href={"mailto:hej@jonasportfol.io"}>
-						Contact
-					</a>
-				</div>
-				<div className={"text-right w-10/12 lg:w-7/12"}>
-					<a href={"https://github.com/jonasmue/jonasportfol.io"} target={"_blank"}>Source Code</a>
-				</div>
-				<div className={"text-right w-full mt-5 lg:w-3/12 lg:mt-0"}>
-					<span>
-						<a href={"https://compitencies.com/impressum/#privacy"} target={"_blank"}>Privacy Policy</a>
-					</span>
-					<span className={"pl-5"}>
-						<a href={"https://compitencies.com/impressum"} target={"_blank"}>Imprint</a>
-					</span>
-				</div>
-			</footer>
+			<Footer/>
 		</div>
 	)
 }

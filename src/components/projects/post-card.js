@@ -1,7 +1,8 @@
-import Date from "./date";
+import Date from "../util/date";
 import Link from 'next/link'
 
 const PostCard = (props) => {
+	// noinspection HtmlUnknownTarget
 	return (
 		<>
 			<div className={"w-full md:w-1/2 lg:w-1/3 p-3"}>
