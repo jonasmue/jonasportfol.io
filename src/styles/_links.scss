@@ -15,8 +15,11 @@ a {
   }
 }
 
-footer {
+footer, .header {
   a {
     color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
