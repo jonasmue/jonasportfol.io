@@ -18,12 +18,24 @@ export default function Home({allPostsData}) {
 					to showcase some of my recent university and private projects.
 				</p>
 			</section>
-			<section className={"light-back"}>
-				<h2>Projects</h2>
-				<div className="flex flex-wrap mb-4">
+			<section className={"text-center light-back"}>
+				<h2 className={"my-8"}>Projects</h2>
+				<div className="text-left flex flex-wrap mb-4">
 					{allPostsData.map((postData, index) => (
 						<PostCard data={postData} key={index}/>
 					))}
+				</div>
+			</section>
+			<section className={"text-center p-10 accent-back white"}>
+				<h2 className={"mb-8"}>Contact</h2>
+				<p className={"text-xl"}>If you want to get to know more about me and my work, don't hesitate to get in
+					touch!
+				</p>
+				<div className={"my-10"}>
+					<a className={"btn focus:outline-none bg-transparent text-white text-2xl font-semibold hover:text-white py-2 px-8 border-2 border-white rounded-md"}
+					   href={"mailto:hej@jonasportfol.io"}>
+						<span className={"mr-3"}>✉</span>️ hej@jonasportfol.io
+					</a>
 				</div>
 			</section>
 		</Layout>

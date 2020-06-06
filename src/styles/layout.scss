@@ -1,9 +1,11 @@
 @import "color";
+@import "typography";
 
 html,
 body {
   color: $primary;
   background: $background;
+  @apply font-sans;
 }
 
 section {
@@ -12,7 +14,7 @@ section {
 
 section, div {
   .accent-back {
-    background: $accent-1;
+    background: $accent;
     color: $inverse;
   }
 
