@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout, {siteTitle} from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
 import {getSortedPostsData} from '../lib/posts'
 import PostCard from "../components/post-card";
 
@@ -10,7 +9,7 @@ export default function Home({allPostsData}) {
 			<Head>
 				<title>{siteTitle}</title>
 			</Head>
-			<section className={utilStyles.headingMd}>
+			<section>
 				<p>I am a recent graduate of the <a href={"https://hci.uni-wuerzburg.de"} target={"_blank"}>Master's
 					Human-Computer Interaction program</a> at the University of Würzburg. I am passionate about
 					researching
@@ -19,8 +18,8 @@ export default function Home({allPostsData}) {
 					to showcase some of my recent university and private projects.
 				</p>
 			</section>
-			<section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-				<h2 className={utilStyles.headingLg}>Projects</h2>
+			<section className={"light-back"}>
+				<h2>Projects</h2>
 				<div className="flex flex-wrap mb-4">
 					{allPostsData.map((postData, index) => (
 						<PostCard data={postData} key={index}/>

@@ -1,0 +1,22 @@
+@import "color";
+
+html,
+body {
+  color: $primary;
+  background: $background;
+}
+
+section {
+  padding: 20px;
+}
+
+section, div {
+  .accent-back {
+    background: $accent-1;
+    color: $inverse;
+  }
+
+  .light-back {
+    background: $light-back;
+  }
+}

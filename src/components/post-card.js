@@ -1,5 +1,4 @@
 import Date from "./date";
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const PostCard = (props) => {
@@ -11,7 +10,7 @@ const PostCard = (props) => {
 						<a>{props.data.title}</a>
 					</Link>
 					<br/>
-					<small className={utilStyles.lightText}>
+					<small>
 						<Date dateString={props.data.date}/>
 					</small>
 				</div>
