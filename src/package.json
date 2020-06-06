@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
     "@zeit/next-sass": "^1.0.1",
     "date-fns": "^2.14.0",
     "gray-matter": "^4.0.2",
