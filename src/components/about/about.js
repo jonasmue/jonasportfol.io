@@ -8,7 +8,7 @@ const AboutMe = () => {
 				className={"h-32 w-32 inline-block object-top shadow-lg rounded-full"}
 			/>
 			<h1 className={"mt-10 mb-2"}>{"Hey, I'm Jonas!"}</h1>
-			<div className={"text-center mb-4 ml-auto mr-auto w-1/4 rounded-lg border-b-2 border-gray-700"}/>
+			<div className={"text-center mb-4 ml-auto mr-auto w-1/4 rounded-lg border-b-2 border-gray"}/>
 			<p className={"md:text-xl"}>I am a recent graduate of the Master's <a href={"https://hci.uni-wuerzburg.de"}
 				   target={"_blank"}>Human-Computer Interaction</a> program at the University of Würzburg. <br/>
 				Apart from "classic HCI topics"
