@@ -1,6 +1,6 @@
-const Header = () => {
+const SocialIcons = () => {
 	return (
-		<div className={"header text-right text-xl m-10"}>
+		<div className={"header mb-4 text-center text-xl"}>
 			<a href={"https://linkedin.com/in/jomue"} target={"_blank"}>
 				<i className={"fab fa-linkedin-in"}/>
 			</a>
@@ -17,4 +17,4 @@ const Header = () => {
 	)
 }
 
-export default Header
+export default SocialIcons

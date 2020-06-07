@@ -7,7 +7,7 @@ const PostCard = (props) => {
 		<>
 			<div className={"w-full md:w-1/2 lg:w-1/3 p-3"}>
 				<Link href="posts/[id]" as={`posts/${props.data.id}`}>
-					<div className={"card rounded-lg shadow-lg p-3"}>
+					<div className={"card rounded-lg shadow-xl p-3"}>
 						<div className={"card-background"}>
 							<div className={"card-img"} style={{backgroundImage: "url(/images/posts/" + props.data.image + ")"}}/>
 							<div className={"card-gradient mix"}/>

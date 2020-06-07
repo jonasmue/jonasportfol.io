@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Footer from "./footer"
-import Header from "./header";
 
 export const siteTitle = "Jonas Müller | Portfolio"
 
@@ -26,7 +25,6 @@ export default function Layout({children, home}) {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				<title>{siteTitle}</title>
 			</Head>
-			<Header/>
 			<main>{children}</main>
 			{!home && (
 				<div>
