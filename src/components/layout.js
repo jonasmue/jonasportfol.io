@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Footer from "./footer"
 
 export const siteTitle = "Jonas Müller | Portfolio"
 
-export default function Layout({children, home}) {
+export default function Layout({children}) {
 	return (
 		<div>
 			<Head>
@@ -26,13 +25,6 @@ export default function Layout({children, home}) {
 				<title>{siteTitle}</title>
 			</Head>
 			<main>{children}</main>
-			{!home && (
-				<div>
-					<Link href="/">
-						<a>← Back to home</a>
-					</Link>
-				</div>
-			)}
 			<Footer/>
 		</div>
 	)

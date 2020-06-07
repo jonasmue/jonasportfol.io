@@ -35,16 +35,16 @@
   }
 
   .card-gradient {
-    background: linear-gradient(-10deg, transparentize($accent, 0.45), $accent);
+    background: $gradient-one;
     transition: all 0.3s;
   }
 
   .card-gradient.second {
-    background: linear-gradient(-10deg, transparentize($accent-two, 0.45), $accent-two);
+    background: $gradient-two;
   }
 
   .card-gradient.mix {
-    background: linear-gradient(-10deg, transparentize($accent-two, 0.45), $accent);
+    background: $gradient-mixed;
   }
 
   .card-content {

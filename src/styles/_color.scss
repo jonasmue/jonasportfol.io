@@ -11,3 +11,8 @@ $accent-two-darken-1: #454baa;
 $background: #fff;
 $light-back: #f6f6f6;
 
+$gradient-one: linear-gradient(-10deg, transparentize($accent, 0.45), $accent);
+$gradient-two: linear-gradient(-10deg, transparentize($accent-two, 0.45), $accent-two);
+$gradient-mixed: linear-gradient(-10deg, transparentize($accent-two, 0.45), $accent);
+$gradient-mixed-strong: linear-gradient(-10deg, $accent-two, $accent);
+
