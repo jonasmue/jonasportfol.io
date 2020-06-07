@@ -15,7 +15,7 @@ HTML mockups and finally ending with a high-fidelity prototype built on the [Ion
 Each of the prototypes was tested with test persons. The final concept was evaluated with a diary study collecting user 
 feedback over a time period of roughly one week.
 
-## Images
+## Project Images
 
 ![The first iteration of paper prototypes and the respective HTML mockups.](/images/posts/mcs-tinder-first-1.png)
 <div class="caption">The first iteration of paper prototypes and the respective HTML mockups.</div>
