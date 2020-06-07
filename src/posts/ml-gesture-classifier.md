@@ -3,7 +3,7 @@ title: 'Building a Gesture Classifier with Neural Networks'
 date: '2017-04-03'
 category: "User Interfaces"
 image: "ml-preview.jpg"
-teaser: "In the lecture Machine Learning we built a neural gesture classifier for control of an image view application."
+teaser: "In the lecture "Machine Learning" we built a neural gesture classifier for control of an image view application."
 ---
 
 A gesture classifier for control of an image view application. The system was developed for the HCI master module *Machine Learning*.
