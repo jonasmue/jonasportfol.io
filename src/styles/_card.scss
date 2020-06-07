@@ -1,16 +1,17 @@
 @import "color";
+@import "animation";
 
 .card {
   min-height: 380px;
   overflow: hidden;
   position: relative;
   height: 100%;
-  transition: all 0.3s;
+  transition: all $transition-time;
   cursor: pointer;
   border-radius: 36px;
 
   &:hover {
-    transform: scale(1.02);
+    transform: $scale-bigger;
 
     .card-gradient {
       opacity: 0.95;
