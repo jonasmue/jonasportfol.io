@@ -1,15 +1,15 @@
 import Layout from '../../components/layout'
 import Head from 'next/head'
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import {getAllPostIds, getPostData, getSortedPostsData} from '../../lib/posts'
 import PostWrapper from "../../components/posts/post-wrapper";
 
-export default function Post({ postData }) {
+export default function Post({postData, similarPostsData}) {
 	return (
 		<Layout>
 			<Head>
 				<title>{postData.title}</title>
 			</Head>
-			<PostWrapper data={postData}/>
+			<PostWrapper data={postData} similarPostsData={similarPostsData}/>
 		</Layout>
 	)
 }
@@ -22,11 +22,13 @@ export async function getStaticPaths() {
 	}
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({params}) {
 	const postData = await getPostData(params.id)
+	const similarPostsData = await getSortedPostsData(postData.category, params.id)
 	return {
 		props: {
-			postData
+			postData,
+			similarPostsData
 		}
 	}
 }
