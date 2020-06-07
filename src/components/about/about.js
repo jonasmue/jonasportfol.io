@@ -7,7 +7,7 @@ const AboutMe = () => {
 			<img
 				src="/images/jonas.jpeg"
 				alt={"Jonas"}
-				className={"h-32 w-32 inline-block object-top shadow-xl rounded-full"}
+				className={"h-32 w-32 inline-block object-top shadow-2xl rounded-full"}
 			/>
 			<h1 className={"mt-4 mb-2"}>{"Hey, I'm Jonas!"}</h1>
 			<div className={"text-center mb-4 ml-auto mr-auto w-1/4 rounded-lg border-b-2 border-gray"}/>
