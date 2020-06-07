@@ -5,7 +5,7 @@ const PostCard = (props) => {
 	// noinspection HtmlUnknownTarget
 	return (
 		<>
-			<div className={"w-full md:w-1/2 lg:w-1/3 p-3 md:p-6"}>
+			<div className={"w-full md:w-1/2 xl:w-1/3 p-3 md:p-6"}>
 				<Link href="/posts/[id]" as={`/posts/${props.data.id}`}>
 					<div className={"card rounded-lg shadow-2xl p-3"}>
 						<div className={"card-background"}>
