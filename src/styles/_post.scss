@@ -1,0 +1,46 @@
+@import "color";
+
+.post-content {
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+
+  .caption {
+    color: $grey;
+    text-align: center;
+    margin-top: -0.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .footnotes:before {
+    content: "References";
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .footnotes {
+    margin-top: 3rem;
+
+    hr {
+      border: none;
+    }
+
+    li {
+      color: $grey;
+      border: none;
+      margin: 1rem 0;
+      font-size: 90%;
+    }
+
+    .footnote-backref {
+      visibility: hidden;
+
+      &:before {
+        content: "↑";
+        visibility: visible;
+      }
+    }
+  }
+}

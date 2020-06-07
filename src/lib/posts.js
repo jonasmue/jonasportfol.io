@@ -4,6 +4,9 @@ import matter from 'gray-matter'
 import remark from "remark"
 import html from "remark-html"
 
+const externalLinks = require("remark-external-links")
+const footnotes = require("remark-footnotes")
+
 const postsDirectory = path.join(process.cwd(), 'posts')
 
 export function getSortedPostsData(filterCategory = null, filterId = null) {
@@ -62,6 +65,8 @@ export async function getPostData(id) {
 
 	// Use remark to convert markdown into HTML string
 	const processedContent = await remark()
+		.use(externalLinks, {target: "_blank", rel: false})
+		.use(footnotes, {inlineNotes: true})
 		.use(html)
 		.process(matterResult.content)
 	const contentHtml = processedContent.toString()

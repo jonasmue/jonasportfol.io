@@ -16,11 +16,11 @@ const PostCard = (props) => {
 						<div className={"card-content"}>
 							<h3>{props.data.title}</h3>
 							<br/>
-							<p className={"card-description"}>
+							<p className={"card-description mt-0"}>
 								{props.data.teaser || ""}
 							</p>
 							<div className={"card-bottom w-full"}>
-								<p className={"card-category"}>{props.data.category}</p>
+								<p className={"card-category mb-1"}>{props.data.category}</p>
 								<div className={"w-1/4"}>
 									<hr/>
 								</div>
