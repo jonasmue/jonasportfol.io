@@ -54,11 +54,6 @@
     position: relative;
     height: 100%;
 
-    h3 {
-      font-size: 150%;
-      font-weight: 800;
-    }
-
     .card-category {
       text-transform: uppercase;
       font-size: smaller;
@@ -76,10 +71,6 @@
 
     .card-date {
       margin-top: -5px;
-    }
-
-    .card-description {
-      font-size: medium;
     }
   }
 }

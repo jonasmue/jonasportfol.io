@@ -1,5 +1,5 @@
 const PostCategoryLabel = (props) => {
-	const bgColor = props.bgColor || "bg-gray-700 "
+	const bgColor = props.bgColor || "bg-gray-800 "
 	const textColor = props.textColor || "text-white "
 	return (
 		<div

@@ -1,6 +1,6 @@
 const Footer = () => {
 	return (
-		<footer className={"flex flex-wrap text-white p-10 bg-black"}>
+		<footer className={"flex flex-wrap text-white p-10 bg-gray-800"}>
 			<div className={"w-1/6"}>
 				<a href={"mailto:hej@jonasportfol.io"}>
 					Contact

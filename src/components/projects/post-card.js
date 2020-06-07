@@ -14,9 +14,9 @@ const PostCard = (props) => {
 							<div className={"card-gradient mix"}/>
 						</div>
 						<div className={"card-content"}>
-							<h3>{props.data.title}</h3>
+							<h3 className={"text-xl sm:text-2xl"}>{props.data.title}</h3>
 							<br/>
-							<p className={"card-description mt-0"}>
+							<p className={"card-description text-sm sm:text-base mt-0"}>
 								{props.data.teaser || ""}
 							</p>
 							<div className={"card-bottom w-full"}>
