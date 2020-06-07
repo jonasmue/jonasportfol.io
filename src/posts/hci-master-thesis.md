@@ -44,5 +44,5 @@ The presentation received a jury (Best Presentation) as well as an audience (Bes
 
 ### Resources
 
-* [Master's Thesis](/files/hci_master_thesis_jonas_mueller.pdf)
-* [Exhibition Poster](/files/hci_exhibition_poster_jonas_mueller.pdf) (Won Best Presentation Award)
+* <a href="/files/hci_master_thesis_jonas_mueller.pdf" target="_blank">Master's Thesis</a>
+* <a href="/files/hci_exhibition_poster_jonas_mueller.pdf" target="_blank">Exhibition Poster</a> (Won Best Presentation Award)
