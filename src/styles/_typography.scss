@@ -11,8 +11,7 @@ h1 {
   font-weight: 700;
 
   &.post-title {
-    background: $gradient-mixed-strong;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent;
     line-height: normal;
   }
@@ -28,6 +27,6 @@ h3 {
   font-weight: 700;
 }
 
-p {
+p, li {
   font-size: 110%;
 }

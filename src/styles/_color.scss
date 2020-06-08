@@ -2,17 +2,24 @@ $primary: #000;
 $inverse: #fff;
 $grey: grey;
 
-$accent: #e06268;
-$accent-darken-1: #a44f54;
-
-$accent-two: #4c52e0;
-$accent-two-darken-1: #454baa;
+$accent-1: #f9e1e0;
+$accent-2: #feadb9;
+$accent-3: #bc85a3;
+$accent-4: #9799ba;
+$accent-5: #39719A;
+$accent-6: #073D5E;
 
 $background: #fff;
 $light-back: #f6f6f6;
 
-$gradient-one: linear-gradient(-10deg, transparentize($accent, 0.45), $accent);
-$gradient-two: linear-gradient(-10deg, transparentize($accent-two, 0.45), $accent-two);
-$gradient-mixed: linear-gradient(-10deg, transparentize($accent-two, 0.45), $accent);
-$gradient-mixed-strong: linear-gradient(-10deg, $accent-two, $accent);
+$gradient-one: linear-gradient(-10deg, transparentize($accent-6, 0.45), $accent-2);
+$gradient-two: linear-gradient(-10deg, transparentize($accent-1, 0.45), $accent-3);
+$gradient-three: linear-gradient(-10deg, transparentize($accent-2, 0.45), $accent-4);
+$gradient-four: linear-gradient(-10deg, transparentize($accent-3, 0.45), $accent-5);
+$gradient-five: linear-gradient(-10deg, transparentize($accent-4, 0.45), $accent-6);
 
+$gradient-one-strong: linear-gradient(-10deg, $accent-6, $accent-2);
+$gradient-two-strong: linear-gradient(-190deg, $accent-1, $accent-3);
+$gradient-three-strong: linear-gradient(-190deg, $accent-2, $accent-4);
+$gradient-four-strong: linear-gradient(-190deg, $accent-3, $accent-5);
+$gradient-five-strong: linear-gradient(-190deg, $accent-4, $accent-6);

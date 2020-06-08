@@ -40,7 +40,17 @@ visitors  were able to ask the assistant about different properties of a bike su
 The presentation received a jury (Best Presentation) as well as an audience (Best Project) Award.
 
 ![The project at the Exhibition. Visitors could ask the assistant (in the back) about certain properties of the bike. Labels on the bike guided visitors as to what they could ask from the system. The phrasing of the request was up to them.](/images/posts/hci-expo.jpg)
-<div class="caption">The project at the Exhibition. Visitors could ask the assistant (in the back) about certain properties of the bike. Labels on the bike (displayed on the right) guided visitors as to what they could ask from the system. The phrasing of the request was up to them.</div>
+<div class="caption">The project at the exhibition. Visitors could ask the assistant (in the back) about certain properties of the bike. Labels on the bike (displayed on the right) guided visitors as to what they could ask from the system. The phrasing of the request was up to them.</div>
+
+<div class="video-wrapper">
+<video autoplay muted loop>
+  <source src="/videos/master-thesis-exhibition.mp4" type="video/mp4">
+</video>
+</div>
+<div class="caption"><div class="text-tiny mb-1">Icons licensed as Creative Commons CCBY – Lamp Icon, Brake Icon created by Berkah Icon from the Noun Project; Wheel Icon created by Miriam Rj from the Noun Project.</div>
+Some example inputs to and outputs of the demo prototype. Visitors were given some examples as inspiration but could paraphrase their request individually.
+</div>
+
 
 ### Resources
 

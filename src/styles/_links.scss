@@ -1,11 +1,10 @@
 @import "animation";
 
 a {
-  color: $accent;
   font-weight: bold;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   &.btn {

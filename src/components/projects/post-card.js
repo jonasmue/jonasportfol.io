@@ -11,7 +11,7 @@ const PostCard = (props) => {
 						<div className={"card-background"}>
 							<div className={"card-img"}
 								 style={{backgroundImage: "url(/images/posts/" + props.data.image + ")"}}/>
-							<div className={"card-gradient mix"}/>
+							<div className={"card-gradient " + props.data.category.trim().replace(/\s+/g, '-').toLowerCase()}/>
 						</div>
 						<div className={"card-content"}>
 							<h3 className={"text-xl sm:text-2xl"}>{props.data.title}</h3>
