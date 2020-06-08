@@ -1,5 +1,5 @@
 ---
-title: 'Sortify — Using Song Vectors to Sort Playlists'
+title: 'Sortify: Using Song Vectors to Sort Playlists'
 date: '2019-11-02'
 category: "Natural Language Processing"
 image: "sortify-animated.gif"
