@@ -3,9 +3,10 @@ import Link from 'next/link'
 
 const PostCard = (props) => {
 	// noinspection HtmlUnknownTarget
+	const pinnedClass = props.showPinned && props.data.pinned ? " pinned" : " md:w-1/2 xl:w-1/3";
 	return (
 		<>
-			<div className={"w-full md:w-1/2 xl:w-1/3 p-3 md:p-6"}>
+			<div className={"w-full p-3 md:p-6" + pinnedClass}>
 				<Link href="/posts/[id]" as={`/posts/${props.data.id}`}>
 					<div className={"card rounded-lg shadow-2xl p-3"}>
 						<div className={"card-background"}>
@@ -16,7 +17,7 @@ const PostCard = (props) => {
 						<div className={"card-content"}>
 							<h3 className={"text-xl sm:text-2xl"}>{props.data.title}</h3>
 							<br/>
-							<p className={"card-description text-sm sm:text-base mt-0"}>
+							<p className={"card-description pb-16 text-sm sm:text-base mt-0"}>
 								{props.data.teaser || ""}
 							</p>
 							<div className={"card-bottom w-full"}>

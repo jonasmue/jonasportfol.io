@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}) {
 	const postData = await getPostData(params.id)
-	const similarPostsData = await getSortedPostsData(postData.category, params.id)
+	const similarPostsData = await getSortedPostsData(false, postData.category, params.id)
 	return {
 		props: {
 			postData,

@@ -12,11 +12,11 @@ $accent-6: #073D5E;
 $background: #fff;
 $light-back: #f6f6f6;
 
-$gradient-one: linear-gradient(-10deg, transparentize($accent-6, 0.45), $accent-2);
-$gradient-two: linear-gradient(-10deg, transparentize($accent-1, 0.45), $accent-3);
-$gradient-three: linear-gradient(-10deg, transparentize($accent-2, 0.45), $accent-4);
-$gradient-four: linear-gradient(-10deg, transparentize($accent-3, 0.45), $accent-5);
-$gradient-five: linear-gradient(-10deg, transparentize($accent-4, 0.45), $accent-6);
+$gradient-one: linear-gradient(-10deg, transparentize($accent-6, 0.4), $accent-2);
+$gradient-two: linear-gradient(-10deg, transparentize($accent-1, 0.4), $accent-3);
+$gradient-three: linear-gradient(-10deg, transparentize($accent-2, 0.4), $accent-4);
+$gradient-four: linear-gradient(-10deg, transparentize($accent-3, 0.4), $accent-5);
+$gradient-five: linear-gradient(-10deg, transparentize($accent-4, 0.4), $accent-6);
 
 $gradient-one-strong: linear-gradient(-10deg, $accent-6, $accent-2);
 $gradient-two-strong: linear-gradient(-190deg, $accent-1, $accent-3);

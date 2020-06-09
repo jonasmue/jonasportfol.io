@@ -8,7 +8,7 @@ const Home = ({allPostsData}) => {
 	return (
 		<Layout home>
 			<AboutMe/>
-			<Projects allPostsData={allPostsData}/>
+			<Projects allPostsData={allPostsData} showPinned={true}/>
 			<Contact/>
 		</Layout>
 	)
@@ -18,7 +18,7 @@ export default Home;
 
 // noinspection JSUnusedGlobalSymbols
 export async function getStaticProps() {
-	const allPostsData = getSortedPostsData()
+	const allPostsData = getSortedPostsData(true)
 	return {
 		props: {
 			allPostsData

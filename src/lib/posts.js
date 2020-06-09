@@ -9,7 +9,7 @@ const footnotes = require("remark-footnotes")
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
-export function getSortedPostsData(filterCategory = null, filterId = null) {
+export function getSortedPostsData(pinnedFirst, filterCategory = null, filterId = null) {
 	// Get file names under /posts
 	const fileNames = fs.readdirSync(postsDirectory)
 	let allPostsData = fileNames.map(fileName => {
@@ -38,10 +38,19 @@ export function getSortedPostsData(filterCategory = null, filterId = null) {
 		allPostsData = allPostsData.filter(p => p.category.trim().toLowerCase() === filterCategory.trim().toLowerCase());
 	}
 
+
 	// Sort posts by date
-	return allPostsData.sort((a, b) => {
+	allPostsData =  allPostsData.sort((a, b) => {
 		return a.date < b.date ? 1 : -1
 	})
+
+	// Put pinned posts first
+	if (pinnedFirst) {
+		allPostsData = allPostsData.sort((a, b) => {
+			return a.pinned === b.pinned ? 0 : a.pinned ? -1 : 1;
+		})
+	}
+	return allPostsData;
 }
 
 export function getAllPostIds() {
