@@ -3,8 +3,7 @@ import Header from "./Header";
 import Footer from "./footer"
 
 export default function Layout({children, title, ogImage}) {
-	const seoImage = !!ogImage ? window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '') + ogImage
-		: "https://og-image.now.sh/**Jonas%20M%C3%BCller**%20%7C%20Portfolio.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&widths=auto&heights=auto";
+	const seoImage = ogImage || "https://og-image.now.sh/**Jonas%20M%C3%BCller**%20%7C%20Portfolio.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&widths=auto&heights=auto";
 	return (
 		<div>
 			<Head>
