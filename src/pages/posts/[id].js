@@ -1,14 +1,10 @@
 import Layout from '../../components/layout'
-import Head from 'next/head'
 import {getAllPostIds, getPostData, getSortedPostsData} from '../../lib/posts'
 import PostWrapper from "../../components/posts/post-wrapper";
 
 export default function Post({postData, similarPostsData}) {
 	return (
-		<Layout>
-			<Head>
-				<title>{postData.title}</title>
-			</Head>
+		<Layout title={postData.title} ogImage={postData.image}>
 			<PostWrapper data={postData} similarPostsData={similarPostsData}/>
 		</Layout>
 	)

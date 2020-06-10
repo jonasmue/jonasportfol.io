@@ -6,7 +6,7 @@ import {getSortedPostsData} from "../lib/posts";
 
 const Home = ({allPostsData}) => {
 	return (
-		<Layout home>
+		<Layout title={"Jonas Müller | Portfolio"}>
 			<AboutMe/>
 			<Projects allPostsData={allPostsData} showPinned={true}/>
 			<Contact/>

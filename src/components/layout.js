@@ -2,9 +2,7 @@ import Head from 'next/head'
 import Header from "./Header";
 import Footer from "./footer"
 
-export const siteTitle = "Jonas Müller | Portfolio"
-
-export default function Layout({children}) {
+export default function Layout({children, title, ogImage}) {
 	return (
 		<div>
 			<Head>
@@ -16,12 +14,12 @@ export default function Layout({children}) {
 				/>
 				<meta
 					property="og:image"
-					content="https://og-image.now.sh/**Jonas%20M%C3%BCller**%20%7C%20Portfolio.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&widths=auto&heights=auto"
+					content={ogImage || "https://og-image.now.sh/**Jonas%20M%C3%BCller**%20%7C%20Portfolio.png?theme=light&md=1&fontSize=125px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg&widths=auto&heights=auto"}
 				/>
-				<meta name="og:title" content={siteTitle}/>
+				<meta name="og:title" content={title}/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-				<title>{siteTitle}</title>
+				<title>{title}</title>
 			</Head>
 			<Header/>
 			<main>{children}</main>
