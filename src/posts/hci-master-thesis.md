@@ -44,7 +44,7 @@ The presentation received a jury (Best Presentation) as well as an audience (Bes
 <div class="caption">The project at the exhibition. Visitors could ask the assistant (in the back) about certain properties of the bike. Labels on the bike (displayed on the right) guided visitors as to what they could ask from the system. The phrasing of the request was up to them.</div>
 
 <div class="video-wrapper">
-<video autoplay muted loop>
+<video playsinline autoplay muted loop>
   <source src="/videos/master-thesis-exhibition.mp4" type="video/mp4">
 </video>
 </div>
