@@ -15,7 +15,7 @@ const AboutMe = () => {
 			<p className={"md:text-xl"}>I am a recent graduate of the Master's <a href={"https://hci.uni-wuerzburg.de"}
 				   target={"_blank"}>Human-Computer Interaction</a> program at the University of Würzburg. <br/>
 				Apart from "classic HCI topics"
-				I am passionate about researching into Natural Language Processing and applying it to create enhanced
+				I am passionate about researching into and applying Natural Language Processing to create enhanced
 				user experiences. This site is dedicated
 				to showcase some of my recent university and private projects.
 			</p>
