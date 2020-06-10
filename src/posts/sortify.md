@@ -69,7 +69,10 @@ The objective ran for 10 iterations each taking about 36 hours on a Google Cloud
 Principal Component Analysis (PCA), the following figure showcases a two dimensional projection the top 100 most occurring 
 songs in the dataset. As we can see, there are forming clusters of similar songs which can be interpreted as different genres.
 
-<iframe src="/plots/top100.html" height="550px" style="max-width: 1024px; margin-left:auto; margin-right:auto"></iframe>
+<div class="loadable-iframe">
+<div id="spinner"><div><img alt="Loading" src="/assets/svg/puff.svg" /></div></div>
+<iframe src="/plots/top100.html" onload="document.getElementById('spinner').style.display='none';"></iframe>
+</div>
 <div class="caption">Two dimensional PCA projections of the Top 100 songs.</div>
 
 ## Sorting Playlists with Song Vectors
