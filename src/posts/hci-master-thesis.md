@@ -59,4 +59,4 @@ Some example inputs to and outputs of the demo prototype. Visitors were given so
 * <a href="/files/hci_master_thesis_jonas_mueller.pdf" target="_blank">Master's Thesis</a>
 * <a href="/files/hci_exhibition_poster_jonas_mueller.pdf" target="_blank">Exhibition Poster</a> (Won Best Presentation Award)
 
-Aloha! 
+Aloha!
