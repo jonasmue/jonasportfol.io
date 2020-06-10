@@ -11,7 +11,7 @@ const AboutMe = ({salutation}) => {
 				className={"h-32 w-32 inline-block object-top shadow-2xl rounded-full"}
 			/>
 			<div style={{"opacity": !!salutation ? 1 : 0}} className={"salutationWrapper"}>
-				<h1 className={"mt-4 mb-2"}><span className={"capitalize"}>{greeting}{!!salutation && salutation.length === 2 &&
+				<h1 className={"text-xl md:text-2xl mt-4 mb-2"}><span className={"capitalize"}>{greeting}{!!salutation && salutation.length === 2 &&
 				<span className={"font-thin"}>*</span>}</span>, I'm Jonas!</h1>
 				{!!salutation && salutation.length === 2 &&
 				<div className={"text-base mb-2 -mt-2"}>*{salutation[1]}</div>}
