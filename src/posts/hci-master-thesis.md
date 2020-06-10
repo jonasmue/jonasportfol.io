@@ -38,7 +38,7 @@ in a real-world context.
 The thesis was presented at the [2019 Human Computer Games & Informatics EXPO](https://games.uni-wuerzburg.de/expo/2019/). 
 The presentation featured a prototypical implementation of the enhanced voice assistant. For demonstration purposes, 
 visitors  were able to ask the assistant about different properties of a bike such as its wheel size, weight or tire pressure. 
-The presentation received a jury (Best Presentation) as well as an audience (Best Project) Award.
+The presentation received the Best Presentation Award.
 
 ![The project at the Exhibition. Visitors could ask the assistant (in the back) about certain properties of the bike. Labels on the bike guided visitors as to what they could ask from the system. The phrasing of the request was up to them.](/images/posts/hci-expo.jpg)
 <div class="caption">The project at the exhibition. Visitors could ask the assistant (in the back) about certain properties of the bike. Labels on the bike (displayed on the right) guided visitors as to what they could ask from the system. The phrasing of the request was up to them.</div>
