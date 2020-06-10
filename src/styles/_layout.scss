@@ -1,5 +1,6 @@
 @import "color";
 @import "typography";
+@import "animation";
 
 html,
 body {
@@ -28,4 +29,8 @@ ul {
   list-style-type: disc;
   padding-left: 1.5rem;
   margin-bottom: 2rem;
+}
+
+.salutationWrapper {
+  transition: all $transition-time;
 }
