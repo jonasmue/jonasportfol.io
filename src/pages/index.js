@@ -27,15 +27,15 @@ const getSalutation = () => {
 	const salutations = [
 		["aloha"],
 		["cheers"],
-		["hej", "Swedish for 'Hello'"],
+		["hej", "'Hello' in Swedish"],
 		["hello"],
 		["hey"],
 		["hi"],
 		["howdy"],
-		["moin", "Northern German for 'Hello'"],
-		["servus", "Bavarian for 'Hello'"],
+		["moin", "'Hello' in Northern German"],
+		["servus", "'Hello' in Bavarian"],
 		["greetings"],
-		["salve", "Latin for 'Hello'"]
+		["salve", "'Hello' in Latin"]
 	]
 	return salutations[Math.floor(Math.random() * salutations.length)]
 }
