@@ -7,7 +7,7 @@ const SocialIcons = () => {
 			<a href={"https://github.com/jonasmue"} target={"_blank"}>
 				<i className={"ml-4 mr-4 fab fa-github"}/>
 			</a>
-			<a href={"/file/cv.pdf"} target={"_blank"}>
+			<a href={"/files/cv.pdf"} target={"_blank"}>
 				<span className={"ml-4 mr-4 font-extrabold"}>CV</span>
 			</a>
 			<a href={"mailto:hej@jonasportfol.io"}>
