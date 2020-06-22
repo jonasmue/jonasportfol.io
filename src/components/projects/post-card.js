@@ -28,9 +28,11 @@ const PostCard = (props) => {
 									<div className={"w-1/4"}>
 										<hr/>
 									</div>
-									<small>
-										<Date className={"card-date"} dateString={props.data.date}/>
-									</small>
+									<div className={"card-date"}>
+										<small>
+											<Date dateString={props.data.date}/>
+										</small>
+									</div>
 								</div>
 							</div>
 						</div>
