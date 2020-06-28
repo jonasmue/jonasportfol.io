@@ -7,29 +7,31 @@ teaser: "Tired of writing cover letters? This is what it looks like when you hav
 ---
 
 I guess nobody really loves writing cover letters — so why not have an A.I. do it for you?  I figured it would be a fun 
-experiment to try if that actually worked. Research in neural text generation has made big progress in the past two years. Especially OpenAI managed to impress with their GPT releases. However, since they have not released the parameters of their most recent GPT-3^[Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Agarwal, S. (2020). Language models are few-shot learners. arXiv preprint arXiv:2005.14165.] 
-model yet (and it would presumably not be possible to fine tune this huge model on a Google Colaboratory instance anyway), I decided to fine tune 
-an instance of last year's GPT-2^[Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language models are unsupervised multitask learners. OpenAI Blog, 1(8), 9.] 
+experiment to try if that actually worked. Research in neural text generation has made big progress in the past two years. 
+Especially **OpenAI managed to impress with their GPT releases**. However, since they have not released the parameters of 
+their most recent GPT-3^[Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Agarwal, S. (2020). Language models are few-shot learners. arXiv preprint arXiv:2005.14165.] 
+model yet (and it would presumably not be possible to fine tune this huge model on a Google Colaboratory instance anyway), I decided to work with 
+an instance of last year's **GPT-2**^[Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). Language models are unsupervised multitask learners. OpenAI Blog, 1(8), 9.] 
 model.
 
-At the time of its publication, GPT-2 became popular for its superior performance in text generation, being able to write 
-articles with coherency spanning across different paragraphs. Some artificially generated text examples can be found on 
-[OpenAI's website](https://openai.com/blog/better-language-models/#sample1). These examples suggest that this model should 
-be able to also generate cover letters which range in a similar text length.
+At the time of its publication, **GPT-2 became popular for its superior performance in text generation**. It is capable of writing 
+articles with coherency spanning across several paragraphs. Some artificially generated text examples can be found  
+[here on OpenAI's website](https://openai.com/blog/better-language-models/#sample1). These examples suggest that this model should also 
+be able to generate cover letters as they range in a similar text length.
 
 ## 🗞 Data
-In order tailor the model to a certain domain — as in our case the "cover letter domain" — one needs a sufficiently 
-large dataset to fine tune the model's parameters on. Luckily, there are a lot of example cover letters for all kinds of 
+In order tailor the model to a certain domain — as in our case the "cover letter domain" — one needs a **sufficiently 
+large dataset to fine tune the model's parameters** on. Luckily, there are a lot of example cover letters for all kinds of 
 jobs in the internet. The dataset I created consists of 1866 cover letters for the training set and another 208 letters 
 for the evaluation set. The data corpus was mainly obtained from [indeed's Cover Letter Samples](https://www.indeed.com/career-advice/cover-letter-samples) 
 as well as [JobHero's Sample Cover Letters](https://www.jobhero.com/sample-cover-letters/).
 
 ## ⚙️ Training
 Training was conducted on a [Google Colab GPU instance](http://colab.research.google.com) using [Hugging Face's Transformers 
-framework](https://github.com/huggingface/transformers/tree/master/examples/language-modeling). As base model, a distilled 
-version of GPT-2, [distilgpt2](https://huggingface.co/distilgpt2) was used which was created by the same methods as 
+framework](https://github.com/huggingface/transformers/tree/master/examples/language-modeling). As base model, a **distilled 
+version of GPT-2, [distilgpt2](https://huggingface.co/distilgpt2)** was used. It was created by the same methods as 
 DistilBERT^[Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108.]. 
-In order to fit on the GPU memory, training was conducted with a block size of 256 which should still generate decent results 
+In order to fit on GPU memory, training was conducted with a block size of 256 which should still generate decent results 
 considering that the average cover letter token length is only slightly above this at 278.33.  
 
 ## 📨 Results
@@ -39,7 +41,7 @@ fine-tuned model is capable of generating cover letters for a wide variety of jo
 perfect, as they sometimes suffer from semantic inconsistencies or word repetition, we can nevertheless see, 
 that the model has for sure learned important aspects of writing cover letters. 
 
-The cover letters are structured in a typical way: they start with an introduction, before the main part emphasizes on previous experience or achievements. Finally, the texts 
+The generated cover letters are structured in a typical way: they start with an introduction, before the main part emphasizes on previous experience or achievements. Finally, the texts 
 end with a concluding sentence and a salutation. Interestingly, the model often combines the applicant's names from names seen in the 
 training data but sometimes also comes up with its very own names. 
 
@@ -907,7 +909,7 @@ was associated with drug abuse or domestic violence.
 </div>
 
 Here, interestingly, stereotypical texts do not appear to occur frequently. 
-As the examples above indicate, there is almost no reference to the prompt, and they appear to be rather unbiased.
+As the examples above indicate, there is almost no reference to the prompt, and the generated texts are rather unbiased.
 
 ### Fun Experiments
 
