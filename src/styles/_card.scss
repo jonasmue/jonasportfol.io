@@ -102,3 +102,21 @@
     @apply shadow-2xl;
   }
 }
+
+.text-card {
+  font-style: normal;
+  transition: all $transition-time;
+  @apply shadow-xl rounded-lg cursor-pointer bg-gray-100 px-4 py-5 my-10 font-serif;
+
+  @media (min-width: 768px) {
+    @apply px-10;
+  }
+
+  &:hover {
+    transform: $scale-bigger;
+  }
+
+  .text-card-content {
+    display: none;
+  }
+}

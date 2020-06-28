@@ -20,6 +20,9 @@ export default function Layout({children, title, ogImage}) {
 				<meta name="og:title" content={title}/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+						integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+						crossOrigin="anonymous"></script>
 				<title>{title}</title>
 			</Head>
 			<Header/>

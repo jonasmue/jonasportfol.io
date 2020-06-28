@@ -1,4 +1,5 @@
 @import "color";
+@import "animation";
 
 .post-content {
   img {
@@ -172,6 +173,32 @@
       width: 100%;
       height: 100%;
       position: absolute;
+    }
+  }
+}
+
+.collapsible {
+  position: relative;
+
+  h3, h4 {
+    @apply pr-5;
+  }
+
+  &:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+    font-weight: 900; /* NEEDED FOR FONT AWESOME! */
+    top: 1.5rem;
+    position: absolute;
+    right: 1.5rem;
+    transition: all $transition-time;
+    @apply text-gray-600;
+  }
+
+  &.open {
+    &:before {
+      transform: rotate(180deg);
+      transform-origin: center center;
     }
   }
 }

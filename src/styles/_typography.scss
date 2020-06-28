@@ -11,7 +11,7 @@ h1 {
   font-weight: 700;
 
   &.post-title {
-    -webkit-background-clip: text!important;
+    -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
     line-height: normal;
   }
@@ -29,4 +29,10 @@ h3 {
 
 p, li {
   font-size: 110%;
+}
+
+.text-highlight {
+  border-radius: 1em 0 1em 0;
+  text-shadow: 1px 1px 1px #fff;
+  background-image: linear-gradient(100deg, rgba(255, 250, 150, 0.6), rgba(255, 250, 150, 0.8) 100%, rgba(255, 250, 150, 0.6))
 }
