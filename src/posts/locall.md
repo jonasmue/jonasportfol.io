@@ -2,7 +2,7 @@
 title: 'LOCALL: Support Your Local Business'
 date: '2020-04-15'
 category: "Society"
-image: "locall-logo.png"
+image: "locall-haus.png"
 teaser: "As part of the #WirVsVirus Hackathon of the German Federal Government, we built an interactive online application to help support local businesses."
 ---
 

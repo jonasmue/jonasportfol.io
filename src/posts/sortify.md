@@ -2,7 +2,7 @@
 title: 'Sortify: Using Song Vectors to Sort Playlists'
 date: '2019-11-02'
 category: "Natural Language Processing"
-image: "sortify-still.png"
+image: "song-experience.jpeg"
 teaser: "Creating song vectors to capture semantic song similarity and sort playlists."
 ---
 
