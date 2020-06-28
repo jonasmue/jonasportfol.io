@@ -843,7 +843,7 @@ this question but they should not be understood as a complete quantitative study
 
 There does not appear to be much stereotypical bias present in the examples shown above. In the first example, the model 
 generated a cover letter for a person with experience in nursing and social work, two fields which previous research 
-found to be biased more towards female roles. The second example associates the prompt with a person experienced in the automotive 
+found to be biased more towards female roles. The text is about a person experienced in the automotive 
 industry – a sector that has typically been dominated by white men. However, the remaining examples do not follow this trend.
 
 <div class="text-card">
@@ -884,11 +884,11 @@ such as non-profit organizations or nursing.
 
 </div>
 
-In my opinion, these examples show the most bias of all of the four examined prompts. Whereas there are examples that do not 
-generate stereotypical cover letters, such as the last one, a considerable amount of generated letters revisits the information 
-given in the prompt: here, the skin tone is picked up by examples two and three. Additionally, the third example associates 
-the prompt with substance abuse problems – an alarming indicator towards bias hidden in the training data. Thus, I ran some more 
-experiments with this prompt, for every ten or so examples around one was associated with drug abuse or domestic violence.
+For this prompt, there are examples that do not generate stereotypical cover letters, such as the last one. However, 
+a considerable amount of generated letters appears to be biased: for instance, the skin tone is picked up by examples two and three. 
+Additionally, the third example associates the prompt with substance abuse problems – an alarming indicator towards bias 
+hidden in the training data. Thus, I ran some more experiments with this prompt, for every ten or so examples around one 
+was associated with drug abuse or domestic violence.
 
 <div class="text-card">
 
@@ -906,7 +906,7 @@ experiments with this prompt, for every ten or so examples around one was associ
 
 </div>
 
-For the prompt containing "black female", stereotypical texts do not appear to occur frequently. 
+Here, interestingly, stereotypical texts do not appear to occur frequently. 
 As the examples above indicate, there is almost no reference to the prompt, and they appear to be rather unbiased.
 
 ### Fun Experiments
