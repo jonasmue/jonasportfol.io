@@ -17,16 +17,14 @@ articles with coherency spanning across different paragraphs. Some artificially 
 [OpenAI's website](https://openai.com/blog/better-language-models/#sample1). These examples suggest that this model should 
 be able to also generate cover letters which range in a similar text length.
 
-💡 **Try the model generating your own cover letter [here!](https://colab.research.google.com/drive/1HpWs27xJkPvFIZ8PLYRxL8i4FyrTtVye?usp=sharing)**
-
-## 🗞 Data
+# 🗞 Data
 In order tailor the model to a certain domain — as in our case the "cover letter domain" — one needs a sufficiently 
 large dataset to fine tune the model's parameters on. Luckily, there are a lot of example cover letters for all kinds of 
 jobs in the internet. The dataset I created consists of 1866 cover letters for the training set and another 208 letters 
 for the evaluation set. The data corpus was mainly obtained from [indeed's Cover Letter Samples](https://www.indeed.com/career-advice/cover-letter-samples) 
 as well as [JobHero's Sample Cover Letters](https://www.jobhero.com/sample-cover-letters/).
 
-## ⚙️ Training
+# ⚙️ Training
 Training was conducted on a [Google Colab GPU instance](http://colab.research.google.com) using [Hugging Face's Transformers 
 framework](https://github.com/huggingface/transformers/tree/master/examples/language-modeling). As base model, a distilled 
 version of GPT-2, [distilgpt2](https://huggingface.co/distilgpt2) was used which was created by the same methods as 
@@ -34,7 +32,7 @@ DistilBERT^[Sanh, V., Debut, L., Chaumond, J., & Wolf, T. (2019). DistilBERT, a 
 In order to fit on the GPU memory, training was conducted with a block size of 256 which should still generate decent results 
 considering that the average cover letter token length is only slightly above this at 278.33.  
 
-## 📨 Results
+# 📨 Results
 
 Now, that we have trained the model, let us jump into some of the results. The following collection indicates that the 
 fine-tuned model is capable of generating cover letters for a wide variety of job fields. While the letters are certainly not 
@@ -48,8 +46,9 @@ training data but sometimes also comes up with its very own names.
 Moreover, the model manages to keep consistency along the course 
 of the individual letters as it succeeds to refer coherently and frequently to the human-written prompts.
 
+💡 **Try the model generating your own cover letter [here!](https://colab.research.google.com/drive/1HpWs27xJkPvFIZ8PLYRxL8i4FyrTtVye?usp=sharing)**
 
-### Examples 
+## Examples 
 
 Please note, that the human-written system prompt at the beginning of each cover letter is written in italic typeface, the remainder of the text is then augmented 
 by the neural text generation model. Please also note that bullet points in the texts were added manually to increase readability.
@@ -813,7 +812,7 @@ Nancy D. Housley
 
 ### 
 
-### Inspecting Model Bias
+## Inspecting Model Bias
 
 As we know from literature, Language Models and Word Embeddings often incorporate stereotypical bias such as gender bias 
 based on the training data^[Brunet, M. E., Alkalay-Houlihan, C., Anderson, A., & Zemel, R. (2019, May). Understanding the origins of bias in word embeddings. In International Conference on Machine Learning (pp. 803-811).]. 
@@ -910,7 +909,7 @@ experiments with this prompt, for every ten or so examples around one was associ
 For the prompt containing "black female", stereotypical texts do not appear to occur frequently. 
 As the examples above indicate, there is almost no reference to the prompt, and they appear to be rather unbiased.
 
-### Fun Experiments
+## Fun Experiments
 
 Cover letters are typically written in a very persuasive and colorful way inflating the applicant's experience and skill set. 
 Therefore, I wanted to find out how the model turns nonsensical or inappropriate prompts into the style of a cover letter. 
@@ -1016,7 +1015,7 @@ Tara S. Henshaw
 </div></div>
 
 
-## 📍 Resources
+# 📍 Resources
 
 * [Try it yourself in Google Colab](https://colab.research.google.com/drive/1HpWs27xJkPvFIZ8PLYRxL8i4FyrTtVye?usp=sharing)
 * [Model on Hugging Face Model Hub](https://huggingface.co/jonasmue/cover-letter-distilgpt2)
