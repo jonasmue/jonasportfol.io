@@ -179,6 +179,7 @@
 
 .collapsible {
   position: relative;
+  cursor: pointer;
 
   h3, h4 {
     @apply pr-5;
