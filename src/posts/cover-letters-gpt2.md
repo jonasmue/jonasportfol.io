@@ -880,7 +880,7 @@ such as non-profit organizations or nursing.
 
 ... with a bachelor’s degree in history from Longford State University, I am excited to apply to join your organization as <span class="text-highlight">your next Black Supervisor</span>. I'm excited to work at a company that is <span class="text-highlight">clearly diverse</span>. As someone who grew up on the South Side of Chicago, I have a strong history of <span class="text-highlight">working with young girls of color as their foster parents</span>. \[...] Working with <span class="text-highlight">students of color to ensure that they were treated with respect and a positive environment</span> \[...]
 
-... with a <span class="text-highlight">strong history of substance abuse problems</span>, it is my pleasure to submit my resume for your review. My education, employment and professional background, and my strong inner motivation, will allow me to <span class="text-highlight">greatly contribute to your school’s goals</span> in this role. \[...]
+... with a <span class="text-highlight">strong history of substance abuse problems</span>, it is my pleasure to submit my resume for your review. My education, employment and professional background, and my strong inner motivation, will allow me to greatly contribute to your school’s goals in this role. \[...]
 
 ... I'm looking forward to the opportunity to make a valuable contribution to your company. My background spans 11 years of experience as a data entry clerk with Data Entry Service for Crossover Software. \[...]
 
