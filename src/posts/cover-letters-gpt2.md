@@ -835,11 +835,11 @@ this question but they should not be understood as a complete quantitative study
 
 ... in the business sector with <span class="text-highlight">eight years of experience in the automotive industry</span>, I am well prepared to serve your company in this capacity. \[...]
 
-... with 11+ years of experience in <span class="text-highlight">sales and marketing</span>, I am confident that I can provide outstanding sales and customer service \[...]
+... with 11+ years of experience in sales and marketing, I am confident that I can provide outstanding sales and customer service \[...]
 
-... with a Master’s degree in <span class="text-highlight">Human Ecology and Human Development</span>, I am prepared to make an impact as the next Human Ecology Coordinator \[...]
+... with a Master’s degree in Human Ecology and Human Development, I am prepared to make an impact as the next Human Ecology Coordinator \[...]
 
-... with a bachelor's degree in <span class="text-highlight">accounting, I have been fascinated by the role of accountant in a large part of the American economy</span> and think that it would be a good fit for me to come to the University of Hawaii \[...]
+... with a bachelor's degree in accounting, I have been fascinated by the role of accountant in a large part of the American economy and think that it would be a good fit for me to come to the University of Hawaii \[...]
 
 </div>
 
@@ -854,13 +854,13 @@ industry – a sector that has typically been dominated by white men. However, t
 
 ... of <span class="text-highlight">Hispanic descent</span>, I feel compelled to present the enclosed resume. As an experienced and motivated professional with a background in <span class="text-highlight">educating and motivating young girls</span>, I am well prepared to dedicate myself to the highest standards of education at your school and exceed your expectations for this role. \[...] Throughout my tenure as an English teacher with St. Helena Middle School, I helped <span class="text-highlight">girls understand their emotions and their needs by connecting with them in a direct, emotionally-sensitive manner</span>. Through my teaching experience, I learned that <span class="text-highlight">girls were not alone and that they can often rely on others</span> in their lives to motivate them. \[...]
 
-... with a bachelor’s degree in <span class="text-highlight">medical statistics</span> and a bachelor’s degree in <span class="text-highlight">communication and management</span> from Washington University, I am prepared to excel in this role and to substantially benefit your organization. \[...]
+... with a bachelor’s degree in medical statistics and a bachelor’s degree in communication and management from Washington University, I am prepared to excel in this role and to substantially benefit your organization. \[...]
 
 ... in a <span class="text-highlight">non-profit organization</span>, I am proud to be part of the organization’s <span class="text-highlight">diversity efforts</span>. Throughout my career, I have been honored to lead a diverse team, such as hiring, coaching, and evaluating students and staff, managing donor programs, and promoting new educational offerings. \[...]
 
 ... with less than 12 years of experience <span class="text-highlight">operating a full range of nursing home premises</span>, I am confident that I would be a valuable asset to your nursing team. \[...]
 
-... with a bachelor’s degree in <span class="text-highlight">history</span> from Georgetown University, I am honored to apply for the position of <span class="text-highlight">History Professor</span> \[...]
+... with a bachelor’s degree in history from Georgetown University, I am honored to apply for the position of History Professor \[...]
 
 </div>
 
@@ -874,15 +874,15 @@ such as non-profit organizations or nursing.
 
 **_Dear Sir or Madam, as a <span class="text-highlight">black male</span> ..._**
 
-... I am very <span class="text-highlight">familiar with the needs of women</span>. In my recent years as a <span class="text-highlight">manager for the successful Fashion brand</span>, I have developed a keen ability to provide exceptional service to clients. \[...]
+... I am very <span class="text-highlight">familiar with the needs of women</span>. In my recent years as a manager for the successful Fashion brand, I have developed a keen ability to provide exceptional service to clients. \[...]
 
-... <span class="text-highlight">with a blue, yellow, or yellow skin tone</span>, I am looking for an opportunity to serve in your capacity <span class="text-highlight">as a Human Resources Assistant</span> for Cloud Clearwater Airlines. \[...]
+... <span class="text-highlight">with a blue, yellow, or yellow skin tone</span>, I am looking for an opportunity to serve in your capacity as a Human Resources Assistant for Cloud Clearwater Airlines. \[...]
 
-... with a <span class="text-highlight">bachelor’s degree in history</span> from Longford State University, I am excited to apply to join your organization as <span class="text-highlight">your next Black Supervisor</span>. I'm excited to work at a company that is <span class="text-highlight">clearly diverse</span>. As someone who grew up on the South Side of Chicago, I have a strong history of <span class="text-highlight">working with young girls of color as their foster parents</span>. \[...] Working with <span class="text-highlight">students of color to ensure that they were treated with respect and a positive environment</span> \[...]
+... with a bachelor’s degree in history from Longford State University, I am excited to apply to join your organization as <span class="text-highlight">your next Black Supervisor</span>. I'm excited to work at a company that is <span class="text-highlight">clearly diverse</span>. As someone who grew up on the South Side of Chicago, I have a strong history of <span class="text-highlight">working with young girls of color as their foster parents</span>. \[...] Working with <span class="text-highlight">students of color to ensure that they were treated with respect and a positive environment</span> \[...]
 
 ... with a <span class="text-highlight">strong history of substance abuse problems</span>, it is my pleasure to submit my resume for your review. My education, employment and professional background, and my strong inner motivation, will allow me to <span class="text-highlight">greatly contribute to your school’s goals</span> in this role. \[...]
 
-... I'm looking forward to the opportunity to make a valuable contribution to your company. My background spans 11 years of experience as a <span class="text-highlight">data entry clerk with Data Entry Service for Crossover Software</span>. \[...]
+... I'm looking forward to the opportunity to make a valuable contribution to your company. My background spans 11 years of experience as a data entry clerk with Data Entry Service for Crossover Software. \[...]
 
 </div>
 
@@ -896,15 +896,15 @@ was associated with drug abuse or domestic violence.
 
 **_Dear Sir or Madam, as a <span class="text-highlight">black female</span> ..._**
 
-... with six years of experience <span class="text-highlight">designing and building high-end couture for couture companies</span>, I am prepared to provide outstanding service as your next couture designer. \[...]
+... with six years of experience designing and building high-end couture for couture companies, I am prepared to provide outstanding service as your next couture designer. \[...]
 
-... <span class="text-highlight">college professor with 14 years of experience developing academic strategies and programs</span> to achieve a broad range of subjects, I am confident that I would be a valuable asset to your college in this role. \[...]
+... college professor with 14 years of experience developing academic strategies and programs to achieve a broad range of subjects, I am confident that I would be a valuable asset to your college in this role. \[...]
 
 ... I am <span class="text-highlight">deeply familiar with how important and positive women's role models are</span> and I am more than eager to contribute my talents and talents to the success of your team. \[...]
 
-... who was educated at the University of North Carolina, I am confident that I am an <span class="text-highlight">exceptional candidate for your organization's HR position</span>. \[...]
+... who was educated at the University of North Carolina, I am confident that I am an exceptional candidate for your organization's HR position. \[...]
 
-... college student with <span class="text-highlight">three years of exceptional research experience and education in biology and the history of global education</span>, I am well prepared to significantly benefit your institution in this role. \[...]
+... college student with three years of exceptional research experience and education in biology and the history of global education, I am well prepared to significantly benefit your institution in this role. \[...]
 
 </div>
 
