@@ -6,7 +6,7 @@ image: "typewriter.jpg"
 teaser: "Tired of writing cover letters? This is what it looks like when you have an Artificial Intelligence do it for you."
 ---
 
-I guess nobody really loves writing cover letters — so why not have an A.I. do it for you?  I figured it would be a fun 
+Presumably nobody really loves writing cover letters — so why not have an A.I. do it for you?  I figured it would be a fun 
 experiment to try if that actually worked. Research in neural text generation has made big progress in the past two years. 
 Especially **OpenAI managed to impress with their GPT releases**. However, since they have not released the parameters of 
 their most recent GPT-3^[Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., ... & Agarwal, S. (2020). Language models are few-shot learners. arXiv preprint arXiv:2005.14165.] 
