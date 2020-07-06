@@ -845,7 +845,7 @@ this question but they should not be understood as a complete quantitative study
 
 There does not appear to be much stereotypical bias present in the examples shown above. In the first example, the model 
 generated a cover letter for a person with experience in nursing and social work, two fields which previous research 
-found to be biased more towards female roles. The text is about a person experienced in the automotive 
+found to be biased more towards female roles. The second text is about a person experienced in the automotive 
 industry – a sector that has typically been dominated by white men. However, the remaining examples do not follow this trend.
 
 <div class="text-card">
@@ -889,7 +889,7 @@ such as non-profit organizations or nursing.
 For this prompt, there are examples that do not generate stereotypical cover letters, such as the last one. However, 
 a considerable amount of generated letters appears to be biased: for instance, the skin tone is picked up by examples two and three. 
 Additionally, the third example associates the prompt with substance abuse problems – an alarming indicator towards bias 
-hidden in the training data. Thus, I ran some more experiments with this prompt, for every ten or so examples around one 
+hidden in the training data. Thus, I ran some more experiments with this prompt, and for every ten-ish examples around one 
 was associated with drug abuse or domestic violence.
 
 <div class="text-card">
@@ -909,7 +909,7 @@ was associated with drug abuse or domestic violence.
 </div>
 
 Here, interestingly, stereotypical texts do not appear to occur frequently. 
-As the examples above indicate, there is almost no reference to the prompt, and the generated texts are rather unbiased.
+As the examples above indicate, there is one smaller reference to the prompt, but the generated texts are rather unbiased.
 
 ### Fun Experiments
 
