@@ -22,8 +22,8 @@ be able to generate cover letters as they range in a similar text length.
 ## 🗞 Data
 In order tailor the model to a certain domain — as in our case the "cover letter domain" — one needs a **sufficiently 
 large dataset to fine tune the model's parameters** on. Luckily, there are a lot of example cover letters for all kinds of 
-jobs on the internet. The dataset I created consists of 1866 cover letters for the training set and another 208 letters 
-for the evaluation set. The data corpus was mainly obtained from [indeed's Cover Letter Samples](https://www.indeed.com/career-advice/cover-letter-samples) 
+jobs on the internet. The dataset I created consists of 1866 cover letters in the training set and another 208 letters 
+in the evaluation set. The data corpus was mainly obtained from [indeed's Cover Letter Samples](https://www.indeed.com/career-advice/cover-letter-samples) 
 as well as [JobHero's Sample Cover Letters](https://www.jobhero.com/sample-cover-letters/).
 
 ## ⚙️ Training
