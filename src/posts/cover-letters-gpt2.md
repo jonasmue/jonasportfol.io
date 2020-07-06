@@ -53,7 +53,7 @@ of the individual letters as it succeeds to refer coherently and frequently to t
 ### Examples 
 
 Please note, that the human-written system prompt at the beginning of each cover letter is written in italic typeface, the remainder of the text is then augmented 
-by the neural text generation model. Please also note that bullet points in the texts were added manually to increase readability.
+by the neural text generation model. Bullet points in the texts were added manually to increase readability.
 
 <div class="text-card collapsible">
 
