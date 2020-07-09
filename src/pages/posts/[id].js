@@ -10,7 +10,7 @@ export default function Post({postData, similarPostsData}) {
 	})
 
 	return (
-		<Layout title={postData.title} ogImage={"/images/posts/" + postData.image}>
+		<Layout title={postData.title} ogImage={"/images/posts/" + postData.image} ogDescription={postData.teaser}>
 			<PostWrapper data={postData} similarPostsData={similarPostsData}/>
 		</Layout>
 	)
