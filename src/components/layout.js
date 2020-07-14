@@ -23,6 +23,7 @@ export default function Layout({children, title, ogImage, ogDescription}) {
 					content={seoDescription}
 				/>
 				<meta name="og:title" content={title}/>
+				<meta name="og:author" content={"Jonas Müller"}/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 				<script src="https://code.jquery.com/jquery-3.5.1.min.js"
