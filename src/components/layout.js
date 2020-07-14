@@ -12,7 +12,7 @@ export default function Layout({children, title, ogImage, ogDescription}) {
 					  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>"/>
 				<meta
 					name="description"
-					content="Jonas Müller – Human-Computer Interaction M.Sc. – Portfolio"
+					content="Jonas Müller – Human-Computer Interaction M.Sc. – Portfolio.\nThis site is dedicated to showcase some of my recent university and private projects. Apart from 'classic HCI topics' I am passionate about researching into and applying Natural Language Processing to create enhanced user experiences."
 				/>
 				<meta
 					property="og:image"
