@@ -1,6 +1,6 @@
 ---
 title: "Writing Cover Letters with OpenAI's GPT-2"
-date: '2020-06-28'
+date: '2020-09-28'
 category: "Natural Language Processing"
 image: "typewriter.jpg"
 teaser: "Tired of writing cover letters? This is what it looks like when you have an Artificial Intelligence do it for you."
@@ -1021,3 +1021,4 @@ Tara S. Henshaw
 
 * [Try it yourself in Google Colab](https://colab.research.google.com/drive/1HpWs27xJkPvFIZ8PLYRxL8i4FyrTtVye?usp=sharing)
 * [Model on Hugging Face Model Hub](https://huggingface.co/jonasmue/cover-letter-distilgpt2)
+* [Alejandro Diaz](https://alejandrods.github.io) used the model and created [a web service that lets you create cover letters in real time](https://cover-letter-generator-gpt2-app-6q7gvhilqq-lz.a.run.app)
