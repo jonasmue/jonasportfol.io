@@ -1021,4 +1021,4 @@ Tara S. Henshaw
 
 * [Try it yourself in Google Colab](https://colab.research.google.com/drive/1HpWs27xJkPvFIZ8PLYRxL8i4FyrTtVye?usp=sharing)
 * [Model on Hugging Face Model Hub](https://huggingface.co/jonasmue/cover-letter-distilgpt2)
-* [Alejandro Diaz](https://alejandrods.github.io) used the model and created [a web service that lets you create cover letters in real time](https://cover-letter-generator-gpt2-app-6q7gvhilqq-lz.a.run.app)
+* [Alejandro Diaz](https://alejandrods.github.io) used the model and created [a web service that lets you create cover letters in real time!](https://cover-letter-generator-gpt2-app-6q7gvhilqq-lz.a.run.app)
