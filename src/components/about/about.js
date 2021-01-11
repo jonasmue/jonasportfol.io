@@ -18,7 +18,7 @@ const AboutMe = ({salutation}) => {
 			</div>
 			<div className={"text-center mb-4 ml-auto mr-auto w-1/4 rounded-lg border-b-2 border-gray"}/>
 			<SocialIcons/>
-			<p className={"md:text-xl"}>I am a consultant at <a href={"https://netlight.com"}>Netlight</a>.
+			<p className={"md:text-xl"}>I am a consultant at <a href={"https://netlight.com"} target={"_blank"}>Netlight</a>.
 
 				Before that I graduated from the Master's <a href={"https://hci.uni-wuerzburg.de"}
 																				  target={"_blank"}>Human-Computer
