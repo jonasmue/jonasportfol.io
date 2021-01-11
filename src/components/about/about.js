@@ -20,7 +20,7 @@ const AboutMe = ({salutation}) => {
 			<SocialIcons/>
 			<p className={"md:text-xl"}>I am a consultant at <a href={"https://netlight.com"}>Netlight</a>.
 
-				Before that I graduated in the the Master's <a href={"https://hci.uni-wuerzburg.de"}
+				Before that I graduated from the Master's <a href={"https://hci.uni-wuerzburg.de"}
 																				  target={"_blank"}>Human-Computer
 				Interaction</a> program at the University of Würzburg. <br/>
 				Apart from "classic HCI topics"
