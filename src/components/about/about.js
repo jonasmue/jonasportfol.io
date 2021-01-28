@@ -23,7 +23,8 @@ const AboutMe = ({salutation}) => {
 				Before that I graduated from the Master's <a href={"https://hci.uni-wuerzburg.de"}
 																				  target={"_blank"}>Human-Computer
 				Interaction</a> program at the University of Würzburg. <br/>
-				I am passionate about creating meaningful and pleasant user experiences ranging from classical visual UIs to novel paradigms such as conversational or gesture-based interaction.
+				I am passionate about creating meaningful and pleasant user experiences ranging from classical visual UIs to novel paradigms such as conversational or gesture-based interaction. 
+		This site is dedicated to showcase some of my recent side and university projects.
 			</p>
 		</section>
 	)
