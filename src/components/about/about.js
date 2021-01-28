@@ -20,9 +20,9 @@ const AboutMe = ({salutation}) => {
 			<SocialIcons/>
 			<p className={"md:text-xl"}>I am a consultant at <a href={"https://www.netlight.com"} target={"_blank"}>Netlight</a>.
 
-				Before that I graduated from the Master's <a href={"https://hci.uni-wuerzburg.de"}
+				Before that I did my master's degree in <a href={"https://hci.uni-wuerzburg.de"}
 																				  target={"_blank"}>Human-Computer
-				Interaction</a> program at the University of Würzburg. <br/>
+				Interaction</a> at the University of Würzburg. <br/>
 				I am passionate about creating meaningful and pleasant user experiences ranging from classical visual UIs to novel paradigms such as conversational or gesture-based interaction. 
 		This site is dedicated to showcase some of my recent side and university projects.
 			</p>
