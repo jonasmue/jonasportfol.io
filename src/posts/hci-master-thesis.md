@@ -4,7 +4,7 @@ date: '2019-06-07'
 category: "Natural Language Processing"
 image: "extrinsic-tsne.png"
 teaser: "My master's thesis was concerned with improving the quality of a voice assistant using state-of-the-art word models."
-pinned: true
+pinned: false
 ---
 
 My master's thesis was concerned with improving the quality of a voice assistant for the Technical Service domain using 
