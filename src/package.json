@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "gray-matter": "^4.0.2",
     "next": "^9.4.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",
